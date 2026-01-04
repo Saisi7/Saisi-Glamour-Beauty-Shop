@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ffe6f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: silver;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: pink;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: babyblue;
+}
+
+.cart {
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product:hover {
+    background: #add8e6;
+    transition: 0.3s;
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Contact */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: silver;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Dark mode */
+.dark {
+    background: #222;
+    color: white;
+}
+
